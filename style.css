@@ -34,3 +34,18 @@ main{
     padding-bottom: 10003px;
     background-color: rgb(226, 226, 226);
 }
+
+.ImgMain{
+    
+    background-color: rgb(224, 224, 224);
+    padding: 300px 10px ;
+    gap: 99px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.ImgMain img{
+    width: 500px;
+    height: auto;
+}
