@@ -77,27 +77,20 @@ main{
 
 .TituloMain{
     position: relative;
-    top: 300px;
+    top: 300px;  
+    left: 99px; 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
     display: flex;
-    justify-content: center;
-    gap: 99px; 
+    justify-content: left;
+    gap: 350px; 
     
     text-align: left;
     
     text-align: center;
     background-color: aqua  ;
-    display: flex;
-    flex-direction: column;          
+            
     text-align: left;       
     color: rgb(0, 0, 0);         
 }
 
 
-
-.item-texto {
-    display: flex;
-    flex-direction: column; 
-    width: 500px;           
-    text-align: left;       
-    color: white;          
-}
