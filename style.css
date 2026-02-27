@@ -37,15 +37,67 @@ main{
 
 .ImgMain{
     
-    background-color: rgb(224, 224, 224);
-    padding: 300px 10px ;
+   
+    padding: 150px 10px ;
     gap: 99px;
     margin: auto;
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 180px;  
+    left: 0px; 
 }
 
 .ImgMain img{
     width: 500px;
     height: auto;
+}
+
+.ImgText {
+    position: relative;
+    top: 70px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    gap: 99px; 
+}
+
+.item-texto {
+    display: flex;
+    flex-direction: column; 
+    width: 500px;           
+    text-align: left;       
+    color: rgb(0, 0, 0);          
+}
+
+.item-texto p {
+    margin-top: 10px;       
+    font-size: 16px;
+}
+
+.TituloMain{
+    position: relative;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 99px; 
+    
+    text-align: left;
+    
+    text-align: center;
+    background-color: aqua  ;
+    display: flex;
+    flex-direction: column;          
+    text-align: left;       
+    color: rgb(0, 0, 0);         
+}
+
+
+
+.item-texto {
+    display: flex;
+    flex-direction: column; 
+    width: 500px;           
+    text-align: left;       
+    color: white;          
 }
